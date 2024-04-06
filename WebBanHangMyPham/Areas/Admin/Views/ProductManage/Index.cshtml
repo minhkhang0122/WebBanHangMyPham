@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebBanHangMyPham.Models.Product>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Products</h2>
+
+<p>
+    <a asp-area="Admin" asp-controller="ProductManage" asp-action="Add">Thêm sản phẩm</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Hình ảnh</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                <td>@product.Category?.Name</td>
+                <td>
+                    @if (product.ImageUrl != null)
+                    {
+                        <img src="@product.ImageUrl" width="100px" height="100px"/>
+                    }
+                </td>
+                <td>
+                <a asp-action="Edit" asp-route-id="@product.Id">Edit</a> |
+                <a asp-action="Detail" asp-route-id="@product.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
