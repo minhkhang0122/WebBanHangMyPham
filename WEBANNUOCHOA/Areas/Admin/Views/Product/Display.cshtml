@@ -1,0 +1,62 @@
+﻿@model WEBANNUOCHOA.Models.Product
+
+@{
+    ViewData["Title"] = "Display";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <div class="container">
+        <section class="py-5">
+            <div class="container">
+                <div class="row gx-5">
+                    <aside class="col-lg-6">
+                        <div class="mb-3 d-flex justify-content-center">
+                            <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image" href="@Html.DisplayFor(model => model.ImageUrl)">
+                                <img style="max-width: 230px; max-height: 300px; margin: auto;" class="rounded-4 fit" src="@Html.DisplayFor(model => model.ImageUrl)" />
+                            </a>
+                        </div>
+                    </aside>
+                    <main class="col-lg-6">
+                        <div class="ps-lg-3">
+                            <h4 class="title text-dark">
+                                @Html.DisplayFor(model => model.Name)
+                            </h4>
+                            <div class="d-flex flex-row my-3">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <div class="row">
+                                    <dt class="col-3">Price:</dt>
+                                    <dd class="col-9">@Html.DisplayFor(model => model.Price)</dd>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="row">
+                                    <dt class="col-3">Description:</dt>
+                                    <dd class="col-9">@Html.DisplayFor(model => model.Description)</dd>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+                                <dt class="col-3">Category:</dt>
+                                <dd class="col-9">@Html.DisplayFor(model => model.Category.Name)</dd>
+                            </div>
+
+                            <hr />
+
+                           
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div>
+    <a asp-action="Index"><button class="btn btn-primary">Back to List</button></a>
+</div>

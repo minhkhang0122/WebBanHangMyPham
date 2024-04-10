@@ -1,0 +1,51 @@
+﻿@model IEnumerable<WEBANNUOCHOA.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Hình ảnh</th>
+            <th>Giỏ hàng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                <td>@product.Category?.Name</td>
+                <td>
+                    @if (product.ImageUrl != null)
+                    {
+                        <img src="@product.ImageUrl" width="100px" height="100px" />
+                    }
+                </td>
+                <td>
+                    <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
+
+                        <input type="hidden" name="productId" value="@product.Id" />
+                        <label for="quantity">Số lượng:</label>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" />
+                        <button class="btn btn-info" type="submit">
+                            Thêm vào giỏ hàng
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <a asp-action="Display" asp-route-id="@product.Id"><button class="btn btn-warning">Details</button></a> |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

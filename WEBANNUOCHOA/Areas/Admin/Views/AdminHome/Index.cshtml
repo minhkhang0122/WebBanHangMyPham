@@ -1,0 +1,12 @@
+﻿@inject SignInManager<ApplicationUser> SignInManger
+@inject UserManager<ApplicationUser> UserManager
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<!--Hiển thị tên mail trong của người đăng nhập-->
+    <a id="manage" class=" nav-link text-Dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> @UserManager.GetUserName(User)</a> 

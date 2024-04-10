@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Website Bán Hàng</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap icons-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WEBANNUOCHOA.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Header -->
+    <div class="container-fluid px-0">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar d-block navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow py-4" style="background-color: black;">
+                    <div class="container">
+                        <!-- Logo-brand -->
+                        <a class="navbar-brand fw-bolder fs-4 text-light " asp-area="" asp-controller="Home" asp-action="Index">THREE FRIENDS</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">                           
+                            <i class="bi bi-list text-light fs-1"></i>
+                        </button>
+
+                        <!-- Nav-link: Home / Privacy / All Product -->
+                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1 d-flex justify-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="Home" asp-action="Privacy">Chính Sách</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="NonProduct" asp-action="Index">Sản Phẩm</a>
+                                </li>
+                            </ul>
+
+                            <!-- Register / Login -->
+                            <partial name="_LoginPartial" />
+
+                            <!-- Cart-->
+                            <div class="block__cart">
+                                <a asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+                                    <i class="bi bi-bag-check text-light fs-4 ps-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid px-0">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid pb-5" data-bs-theme="dark" style="background-color: black;">
+        <div class="container">
+            <div class="row py-5">
+                <div class="footer col-lg-2 offset-lg-1">
+                    <p class="text-light fw-bold">Danh Mục Nước Hoa</p>
+                    <p class="text-secondary">Nước Hoa Nam</p>
+                    <p class="text-secondary">Nước Hoa Nữ</p>
+                    <p class="text-secondary">Sản Phẩm Bán Chạy</p>
+                </div>
+                <div class="footer col-lg-2">
+                    <p class="text-light fw-bold">Về Three Friends</p>
+                    <p class="text-secondary">Câu Chuyện Của Chúng Tôi</p>
+                    <p class="text-secondary">Tin Khuyến Mãi</p>
+                    <p class="text-secondary">Tin Tức Three Friends</p>
+                    <p class="text-secondary">Tuyển Dụng</p>
+                    <p class="text-secondary">Đặt Tiệc Sinh Nhật</p>
+                </div>
+                <div class="footer col-lg-2">
+                    <p class="text-light fw-bold">Liên Hệ Three Friends</p>
+                    <p class="text-secondary">Theo dõi đơn hàng</p>
+                    <p class="text-secondary">Hệ Thống Nhà Hàng</p>
+                    <p class="text-secondary">Liên Hệ Three Friends</p>
+                </div>
+                <div class="footer col-lg-2">
+                    <p class="text-light fw-bold">Chính Sách</p>
+                    <p class="text-secondary">Chính sách hoạt động</p>
+                    <p class="text-secondary">Chính sách và quy định</p>
+                    <p class="text-secondary">Chính sách bảo mật thông tin</p>
+                </div>
+                <div class="footer col-lg-2">
+                    <p class="text-light fw-bold">Download App</p>
+                    <a href="" class="btn btn-success">Download</a>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-12 text-light text-center">
+                    <span>Copyright © 2023 Three Friends Vietnam</span>
+                </div>
+                <div class="col-lg-12 text-light text-end footer__social">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-lg-10 offset-1">
+                    <hr class="hr bg-light" />
+                </div>
+            </div>
+            <div class="row text-secondary">
+                <div class="col-lg-5 offset-1">
+                    <h3 class="text-light">CÔNG TY LIÊN DOANH TNHH THREE FRIENDS VIỆT NAM</h3>
+                    <div class="block--info d-flex flex-column">
+                        <span>Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.</span>
+                        <span>Điện thoại: (028) 38489828</span>
+                        <span>Email: lienhe@threefriendsvietnam.com.vn</span>
+                        <span>Mã số thuế: 0100773885</span>
+                        <span>Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nội</span>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <a href="#"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/logo_footer.png" class="img--moveright" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
