@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PHUQUY_1278.props" />
+</Project>

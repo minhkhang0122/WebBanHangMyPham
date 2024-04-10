@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TIENSY_2011203017.props" />
+</Project>

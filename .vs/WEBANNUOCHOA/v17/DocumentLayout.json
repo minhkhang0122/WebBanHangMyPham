@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\webannuochoa\\webannuochoa\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\webannuochoa\\webannuochoa\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\webannuochoa\\webannuochoa\\views\\nonproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\nonproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\webannuochoa\\webannuochoa\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\webannuochoa\\webannuochoa\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\webannuochoa\\webannuochoa\\views\\nonproduct\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\nonproduct\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Views\\NonProduct\\Display.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\NonProduct\\Display.cshtml",
+              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Views\\NonProduct\\Display.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\NonProduct\\Display.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T03:06:50.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T03:05:26.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Models\\Category.cs",
+              "RelativeToolTip": "WEBANNUOCHOA\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T02:47:03.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Models\\Order.cs",
+              "RelativeToolTip": "WEBANNUOCHOA\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T02:46:59.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "WEBANNUOCHOA\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T02:44:47.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\WEBANNUOCHOA\\WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T16:20:27.493Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
