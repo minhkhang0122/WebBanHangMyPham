@@ -1,24 +1,39 @@
 ﻿html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 /* ===== NAVBAR - HOVER =====*/
+#register2 {
+    transition: 0.3s;   
+}
+#register2:hover {
+    opacity: 0.7;
+    transform: rotateY(360deg) !important;
+}
+.navbar__registerlogin--user {
+    transition: 0.3s;
+    opacity: 0;
+}
+.nav-item:hover .navbar__registerlogin--user {
+    opacity: 1;
+}
 /* CSS font chữ và hover cho navbar-brand / thanh menu của navbar */
 .navbar-brand, .bi-list, .bi-bag-check {
     font-family: fantasy;
     transition: 0.3s ease;
 }
-.navbar-brand:hover, .bi-list:hover, .bi-bag-check:hover, .nav-link:hover {
+
+.navbar-brand:hover, .bi-list:hover, .bi-bag-check:hover {
     opacity: 0.6 !important;
 }
 /* CSS nút menu của navbar - Part 2 */
@@ -31,7 +46,29 @@ html {
 /* CSS hover cho nav-link */
 .nav-link {
     transition: 0.3s ease;
+    position: relative;
 }
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+.nav-link:hover::after {
+    visibility: visible;
+    opacity: 1;
+    width: 80%;
+}
+.nav-link:hover {
+    opacity: 0.7;
+}
+
 /* === CSS cho Admin === */
 .iconAndImage--item {
     font-family: sans-serif;
@@ -41,68 +78,93 @@ html {
     font-family: Oswald, sans-serif;
     font-weight: 700;
 }
+
 .chinhsach .chuinnghieng {
     font-style: italic;
 }
+
 .chinhsach p {
     margin: 30px 0px !important;
 }
-/* Footer */
-.footer p {
-    margin-bottom: 5px;
-}
-
-.footer p:hover {
-    color: white !important;
-    cursor: pointer;
-}
-
-.footer__social .bi {
-    border: 2px solid white !important;
-    padding: 10px !important;
-    margin-right: 5px !important;
-    border-radius: 13px !important;
-    cursor: pointer;
-}
-
-.hr {
-    background-color: white !important;
-    border: 1px solid white !important;
-}
-
-.img--moveright {
-    margin-left: 100px;
-}
-.skill {
-    content: "";
-    background-color: white !important;
-    position: absolute;
-    top: -41px;
-    left: 0;
-    height: 40px;
-    width: 287px;
-}
 /* CSS cho nút thêm giỏ hàng */
-.btn__cart {
-    position: relative;
-    margin-left: 55px;
-    transition: 0.5s;
-    visibility: hidden;
-    transition: 0.5s linear;
+.item__cart button {
+    margin-left: 116px;
+    transition: 0.3s ease-in-out !important;
+    opacity: 0;
 }
-.block__card:hover .btn__cart {
+
+.item__cart .img-fluid {
+    width: 250px;
+    position: relative;
+    top: 22px;
+    transition: 0.3s !important;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.block__card:hover .img-fluid {
+    transform: translateY(-6%);
+}
+
+.block__card:hover button {
     transform: translateY(-50%);
-    visibility: visible;
+    opacity: 1;
 }
-.img__cart {
+/* CSS hover vào card-title */
+.card-title {
+    transition: 0.2s;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card-title:hover {
+    color: #6988f6 !important;
+}
+/* CSS cho trang Login */
+.login--title {
     position: relative;
-    top: 34px;
-    transition: 0.3s ease;
-}
-.block__card:hover .img__cart {
-    top: 2px;
+    left: 115px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
 }
 
+.login--title::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 3px;
+    width: 30%;
+    background-color: black;
+    height: 4px;
+}
+/* CSS cho nút login-submit VÀ registerSubmit trong Login */
+#login-submit, #registerSubmit {
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+#login-submit:hover {
+    background-color: black;
+}
+
+#registerSubmit {
+    background-color: black;
+}
+
+#login-submit {
+    background-color: #fdbb4b;
+}
+
+#registerSubmit:hover {
+    background-color: #fdbb4b;
+}
+/* CSS cho input form-control trong Login */
+.form-control {
+    border-radius: 10px;
+    background-color: #ccc6;
+}
 
 
-
+/* FOOTER*/
+.newsletter:hover {
+    opacity: 0.7;
+}

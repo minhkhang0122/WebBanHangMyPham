@@ -31,11 +31,24 @@
 }
 else
 {
-    <li class="nav-item">
+    <li class="nav-item position-relative" style="left: -22px; font-size: 23px; top: 1px;">
+        <div>
+            <a id="register2" class="navbar__registerlogin--user-parent text-light" asp-area="Identity" asp-page="/Account/Register"><i class="bi bi-person-circle"></i></a>
+        </div>
+        
+        <ul class="position-absolute bg-light ps-0 navbar__registerlogin--user" style="z-index: 1; top: 43px; right: 0px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+            <li class="list-unstyled d-flex">
+                <a class="nav-link text-dark fw-bold pt-2" id="register" style="font-size:16px;" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                <span class="pt-0">/</span>
+                <a class="nav-link text-dark fw-bold pt-2" id="login" style="z-index: 1; font-size:16px;" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            </li>
+        </ul>
+    </li>
+    @* <li class="nav-item">
         <a class="nav-link text-light fw-bold" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>
     <li class="nav-item">
         <a class="nav-link text-light fw-bold" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+    </li> *@
 }
 </ul>
