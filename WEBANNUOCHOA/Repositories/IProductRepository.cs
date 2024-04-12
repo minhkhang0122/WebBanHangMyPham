@@ -9,6 +9,7 @@ namespace WEBANNUOCHOA.Repositories
         Task AddAsync(Product product);
         Task UpdateAsync(Product product);
         Task DeleteAsync(int id);
+        Task<IEnumerable<Product>> SearchByNameAsync(string name); // Thêm liệt kê danh sách Product để tìm kiếm sản phẩm qua tên
 
     }
 }

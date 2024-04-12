@@ -1,6 +1,10 @@
-﻿@inject SignInManager<ApplicationUser> SignInManger
-@inject UserManager<ApplicationUser> UserManager
+﻿
 
+@*Vừa thay đổi*@
+
+@inject SignInManager<ApplicationUser> SignInManger
+@inject UserManager<ApplicationUser> UserManager
+@model List<ProductStatisticViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -10,3 +14,20 @@
 
 <!--Hiển thị tên mail trong của người đăng nhập-->
     <a id="manage" class=" nav-link text-Dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> @UserManager.GetUserName(User)</a> 
+<h2>Product Statistics</h2>
+
+<table class="table">
+    <tr>
+        <th>Product ID</th>
+        <th>Total Quantity</th>
+        <th>Total Price</th>
+    </tr>
+    @foreach (var stat in Model)
+    {
+        <tr>
+            <td>@stat.ProductId</td>
+            <td>@stat.TotalQuantity</td>
+            <td>@stat.TotalPrice</td>
+        </tr>
+    }
+</table>

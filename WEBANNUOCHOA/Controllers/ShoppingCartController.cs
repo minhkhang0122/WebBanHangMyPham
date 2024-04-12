@@ -4,7 +4,6 @@ using WEBANNUOCHOA.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using WEBANNUOCHOA.Models;
 
 namespace WEBANNUOCHOA.Controllers
 {

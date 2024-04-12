@@ -2,10 +2,20 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+
 }
 
-<h1>Index</h1>
+<h1>Product Index</h1>
 
+@*Nút tìm kiếm sản phẩm qua tên*@
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="searchTerm">Search Product Name:</label>
+        <input type="text" class="form-control" id="searchTerm" name="searchTerm" placeholder="Enter product name">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
 <p>
     <a asp-action="Add"><button class="btn btn-success">Create New</button></a>
 </p>

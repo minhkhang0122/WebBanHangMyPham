@@ -1,6 +1,6 @@
 ﻿using WEBANNUOCHOA.Models;
 using Microsoft.EntityFrameworkCore;
-
+// New
 namespace WEBANNUOCHOA.Repositories
 {
     public class EFProductRepository : IProductRepository
@@ -37,6 +37,17 @@ namespace WEBANNUOCHOA.Repositories
             var product = await _context.Products.FindAsync(id);
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
+        }
+        public async Task<IEnumerable<Product>> SearchByNameAsync(string name) // Search product
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                return await GetAllAsync(); // Trả lại dữ liệu tất cả sản phẩm nếu product đó không đc tìm thấy
+            }
+
+            return await _context.Products
+                .Where(p => p.Name.ToLower().Contains(name.ToLower()))
+                .ToListAsync();
         }
     }
 }

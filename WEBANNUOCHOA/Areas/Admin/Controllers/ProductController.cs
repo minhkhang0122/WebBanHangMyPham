@@ -20,9 +20,18 @@ namespace WEBANNUOCHOA.Areas.Admin.Controllers
         }
 
         // Hiển thị danh sách sản phẩm
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(ProductSearchModel searchModel) //Cho tìm kiếm Product
         {
-            var products = await _productRepository.GetAllAsync();
+            IEnumerable<Product> products;
+            if (!string.IsNullOrEmpty(searchModel?.SearchTerm))
+            {
+                products = await _productRepository.SearchByNameAsync(searchModel.SearchTerm);
+            }
+            else
+            {
+                products = await _productRepository.GetAllAsync();
+            }
+
             return View(products);
         }
         // Hiển thị form thêm sản phẩm mới

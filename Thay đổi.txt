@@ -1,0 +1,48 @@
+Đã thêm thống kê trong Admin Dashboard
+@Thay đổi AdminHomeController => private readonly và public AdminHomeController(order, user, logger), public async Task<IACTIONRESULT> Index
+@Thay đổi trong AdminHome Index.cshtml
+@Thêm ProductStatisticViewMode.cs trong Model
+@Đã thêm IOrderRepo và EFOrderRepo(Toàn bộ code)
+@Configure thêm AddScoped cho Order trong program.cs
+
+
+Đã thêm search bar cho AdminProduct và NonProduct cho Customer
+@Cập nhật IProductRepo
+    Task<IEnumerable<Product>> SearchByNameAsync(string name);
+@Cập nhật EFProductRepo
+	 public async Task<IEnumerable<Product>> SearchByNameAsync(string name)
+    {
+        if (string.IsNullOrEmpty(name))
+        {
+            return await GetAllAsync(); // Return all products if no search term is provided
+        }
+
+        return await _context.Products
+            .Where(p => p.Name.ToLower().Contains(name.ToLower()))
+            .ToListAsync();
+    }
+
+@Thêm ProductSearchModel vào Model
+@Vào ProductController trong AdminProduct lẫn NonProduct
+	public async Task<IActionResult> Index(ProductSearchModel searchModel)
+{
+    IEnumerable<Product> products;
+    if (!string.IsNullOrEmpty(searchModel?.SearchTerm))
+    {
+        products = await _productRepository.SearchByNameAsync(searchModel.SearchTerm);
+    }
+    else
+    {
+        products = await _productRepository.GetAllAsync();
+    }
+
+    return View(products);
+}
+@Edit Index của mỗi AdminProduct và NonProduct
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="searchTerm">Search Product Name:</label>
+        <input type="text" class="form-control" id="searchTerm" name="searchTerm" placeholder="Enter product name">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>

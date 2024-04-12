@@ -43,6 +43,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
+builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
 
 
 var app = builder.Build();
@@ -77,6 +78,7 @@ app.UseEndpoints(endpoints =>
         pattern: "{area:exists}/{controller=AdminHome}/{action=Index}/{id?}"
         );
 });
+
 
 app.MapControllerRoute(
     name: "default",

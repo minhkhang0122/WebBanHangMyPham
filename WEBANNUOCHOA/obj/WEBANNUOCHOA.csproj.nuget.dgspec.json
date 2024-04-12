@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj": {}
+    "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj": {
+    "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
+        "projectUniqueName": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
         "projectName": "WEBANNUOCHOA",
-        "projectPath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
+        "projectPath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
         "packagesPath": "C:\\Users\\minhk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBANNUOCHOA\\WEBANNUOCHOA\\obj\\",
+        "outputPath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\minhk\\AppData\\Roaming\\NuGet\\NuGet.Config",

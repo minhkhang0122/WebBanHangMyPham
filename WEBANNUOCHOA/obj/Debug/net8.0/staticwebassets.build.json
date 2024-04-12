@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jTAW1efVnN3zlz4PG/a7/IBo16dVo33KEWeCPAVBYHw=",
+  "Hash": "3zdAKDVyLJVTzPRBB2pC2NdyTYd0LsSrgdbceaIeTHo=",
   "Source": "WEBANNUOCHOA",
   "BasePath": "_content/WEBANNUOCHOA",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "WEBANNUOCHOA\\wwwroot",
       "Source": "WEBANNUOCHOA",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\minhk\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WEBANNUOCHOA.styles.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WEBANNUOCHOA.styles.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "WEBANNUOCHOA.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WEBANNUOCHOA.styles.css"
+      "OriginalItemSpec": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WEBANNUOCHOA.styles.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WEBANNUOCHOA.bundle.scp.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WEBANNUOCHOA.bundle.scp.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "WEBANNUOCHOA.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WEBANNUOCHOA.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WEBANNUOCHOA.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\chart-area-demo.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\chart-area-demo.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/assets/demo/chart-area-demo.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\demo\\chart-area-demo.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\chart-bar-demo.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\chart-bar-demo.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/assets/demo/chart-bar-demo.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\demo\\chart-bar-demo.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\chart-pie-demo.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\chart-pie-demo.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/assets/demo/chart-pie-demo.js",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\demo\\chart-pie-demo.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\datatables-demo.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\demo\\datatables-demo.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/assets/demo/datatables-demo.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\demo\\datatables-demo.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\img\\error-404-monochrome.svg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\assets\\img\\error-404-monochrome.svg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/assets/img/error-404-monochrome.svg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\error-404-monochrome.svg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\css\\styles.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\css\\styles.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/css/styles.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\js\\datatables-simple-demo.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\js\\datatables-simple-demo.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/js/datatables-simple-demo.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\datatables-simple-demo.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\Admin\\js\\scripts.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\Admin\\js\\scripts.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "Admin/js/scripts.js",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\css\\site.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\favicon.ico",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\LD01.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\LD01.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/LD01.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\LD01.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\LD03.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\LD03.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/LD03.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\LD03.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\LD05.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\LD05.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/LD05.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\LD05.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\LD06.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\LD06.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/LD06.jpg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\LD06.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\LD09.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\LD09.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/LD09.jpg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\LD09.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\LD10.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\LD10.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/LD10.jpg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\LD10.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\LD14.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\LD14.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/LD14.jpg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\LD14.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD03.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD03.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nam/LD03.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nam\\LD03.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD05.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD05.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nam/LD05.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nam\\LD05.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD06.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD06.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nam/LD06.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nam\\LD06.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD09.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD09.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nam/LD09.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nam\\LD09.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD10.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD10.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nam/LD10.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nam\\LD10.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD11.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD11.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nam/LD11.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nam\\LD11.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD12.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nam\\LD12.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nam/LD12.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nam\\LD12.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD14.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD14.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD14.jpg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD14.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD16.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD16.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD16.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD16.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD18.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD18.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD18.jpg",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD18.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD19.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD19.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD19.jpg",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD19.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD20.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD20.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD20.jpg",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD20.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD21.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD21.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD21.jpg",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD21.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD22.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD22.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD22.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD22.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD24.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD24.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD24.jpg",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD24.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD26.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD26.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD26.jpg",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD26.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD28.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD28.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD28.jpg",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD28.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD31.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD31.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD31.jpg",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD31.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD33.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD33.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD33.jpg",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD33.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD34.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD34.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD34.jpg",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD34.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD35.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD35.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD35.jpg",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD35.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD36.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Nước hoa nữ\\LD36.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Nước hoa nữ/LD36.jpg",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Nước hoa nữ\\LD36.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Slide\\slider 1.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Slide\\slider 1.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Slide/slider 1.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Slide\\slider 1.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Slide\\slider 2.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Slide\\slider 2.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Slide/slider 2.jpg",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Slide\\slider 2.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\images\\Slide\\slider 3.jpg",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\images\\Slide\\slider 3.jpg",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "images/Slide/slider 3.jpg",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Slide\\slider 3.jpg"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\js\\site.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3076,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WEBANNUOCHOA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\WEBBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\WEBANNUOCHOA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\wwwroot\\",
       "BasePath": "_content/WEBANNUOCHOA",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
