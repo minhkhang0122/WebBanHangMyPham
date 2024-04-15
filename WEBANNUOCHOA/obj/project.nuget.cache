@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WRNsECm2803T6txxEsxcCAH70hQ5LrYTCkxLC+0wvdkbgAJ+ToQ1YKoyzzXc08d+SdfQI/oN8wpiZ0VKrycRSg==",
+  "dgSpecHash": "NMO25ddG1stgvNibZn2o78YEKd4+SfznQj1672GlGsqLyx7Ip/Xwx97tICrwpZP+QON5sx4ELtELZL+dkvPWFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanNuocHoa\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
+  "projectFilePath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minhk\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\minhk\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

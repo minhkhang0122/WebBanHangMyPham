@@ -24,7 +24,8 @@ namespace WEBANNUOCHOA.Controllers
 
         public IActionResult Checkout()
         {
-            return View(new Order());
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
+            return View(cart);
         }
         [HttpPost]
         public async Task<IActionResult> Checkout(Order order)
@@ -47,8 +48,14 @@ namespace WEBANNUOCHOA.Controllers
             _context.Orders.Add(order); await _context.SaveChangesAsync();
 
             HttpContext.Session.Remove("Cart");
-
-            return View("OrderCompleted", order.Id);
+            var viewModel = new OrderCompletedViewModel
+            {
+                
+                OrderId = order.Id,
+                UserName = user.FullName,
+                OrderDate = order.OrderDate.ToString("dd/MM/yyyy HH:mm:ss") // Format date as dd/MM/yyyy HH:mm:ss
+            };
+            return View("OrderCompleted", viewModel);
         }
         public async Task<IActionResult> AddToCart(int productId, int quantity)
         {
