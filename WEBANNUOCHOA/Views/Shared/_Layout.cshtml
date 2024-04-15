@@ -37,13 +37,13 @@
                         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                             <ul class="navbar-nav flex-grow-1 justify-content-center z-n1">
                                 <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
+                                    <a class="nav-link text-light fw-bold gachngang" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="Home" asp-action="Privacy">Chính Sách</a>
+                                    <a class="nav-link text-light fw-bold gachngang" asp-area="" asp-controller="Home" asp-action="Privacy">Chính Sách</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="NonProduct" asp-action="Index">Sản Phẩm</a>
+                                    <a class="nav-link text-light fw-bold gachngang" asp-area="" asp-controller="NonProduct" asp-action="Index">Sản Phẩm</a>
                                 </li>
                             </ul>
 
@@ -52,9 +52,14 @@
 
                             <!-- Cart-->
                             <div class="block__cart">
-                                <a asp-area="" asp-controller="ShoppingCart" asp-action="Index">
-                                    <i class="bi bi-bag-check text-light fs-4 ps-2"></i>
-                                </a>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link p-0" asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+                                            <i class="bi bi-bag-check text-light fs-4"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                  
                             </div>
                         </div>
                     </div>

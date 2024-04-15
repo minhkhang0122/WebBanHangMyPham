@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\webbanhangmypham\\webannuochoa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\webbanhangmypham\\webannuochoa\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\webbanhangmypham\\webannuochoa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\webbanhangmypham\\webannuochoa\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\webbanhangmypham\\webannuochoa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\webbanhangmypham\\webannuochoa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WEBANNUOCHOA\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-12T09:36:43.877Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAQwCUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T12:50:49.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T11:12:33.036Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -76,10 +49,36 @@
               "RelativeDocumentMoniker": "WEBANNUOCHOA\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\wwwroot\\css\\site.css",
               "RelativeToolTip": "WEBANNUOCHOA\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-04-12T09:32:49.777Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:34:07.538Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADkAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T12:50:49.649Z"
             }
           ]
         }

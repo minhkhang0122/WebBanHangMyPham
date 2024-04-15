@@ -13,12 +13,12 @@ html {
     min-height: 100%;
 }
 /* ===== NAVBAR - HOVER =====*/
-#register2 {
-    transition: 0.3s;   
+.navbar__registerlogin--user-parent {
+    transition: 0.3s;
 }
-#register2:hover {
+.navbar__registerlogin--user-parent:hover {
     opacity: 0.7;
-    transform: rotateY(360deg) !important;
+    transform: rotateY(180deg);
 }
 .navbar__registerlogin--user {
     transition: 0.3s;
@@ -27,12 +27,28 @@ html {
 .nav-item:hover .navbar__registerlogin--user {
     opacity: 1;
 }
+/* CSS tam giác cho register và login */
+.navbar__registerlogin--user li::after {
+    content: "";
+    position: absolute;
+    top: -21px;
+    width: 0;
+    height: 0;
+    border: 11px solid #ffd70000;
+    border-bottom-color: white;
+    right: 7px;
+}
 /* CSS font chữ và hover cho navbar-brand / thanh menu của navbar */
-.navbar-brand, .bi-list, .bi-bag-check {
+.navbar-brand, .bi-list,  {
     font-family: fantasy;
     transition: 0.3s ease;
 }
-
+.block__cart a {
+    transition: 0.3s;
+}
+.block__cart a:hover {
+    transform: rotateY(180deg);
+}
 .navbar-brand:hover, .bi-list:hover, .bi-bag-check:hover {
     opacity: 0.6 !important;
 }
@@ -44,11 +60,11 @@ html {
     }
 }
 /* CSS hover cho nav-link */
-.nav-link {
+.gachngang {
     transition: 0.3s ease;
     position: relative;
 }
-.nav-link::after {
+.gachngang::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -60,12 +76,12 @@ html {
     opacity: 0;
     transition: 0.3s;
 }
-.nav-link:hover::after {
+.gachngang:hover::after {
     visibility: visible;
     opacity: 1;
     width: 80%;
 }
-.nav-link:hover {
+.gachngang:hover {
     opacity: 0.7;
 }
 
