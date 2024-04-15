@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\finalwebapplicationwithapi\\webbanhangmypham\\webannuochoa\\views\\shoppingcart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\shoppingcart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\new\\webbanhangmypham\\webannuochoa\\views\\nonproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\nonproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\minhk\\onedrive\\m\u00E1y t\u00EDnh\\finalwebapplicationwithapi\\webbanhangmypham\\webannuochoa\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\new\\webbanhangmypham\\webannuochoa\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\new\\webbanhangmypham\\webannuochoa\\views\\maleproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\maleproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\new\\webbanhangmypham\\webannuochoa\\views\\femaleproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\views\\femaleproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|c:\\users\\admin\\desktop\\new folder\\new\\webbanhangmypham\\webannuochoa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5340CBEF-F2A7-45CB-9CEC-C8128D484C88}|WEBANNUOCHOA\\WEBANNUOCHOA.csproj|solutionrelative:webannuochoa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "WEBANNUOCHOA\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwEAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T10:48:24.441Z",
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T12:44:38.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\MaleProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\MaleProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\MaleProduct\\Index.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\MaleProduct\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T12:42:46.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\FemaleProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\FemaleProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\FemaleProduct\\Index.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\FemaleProduct\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T12:42:23.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderCompleted.cshtml",
-              "DocumentMoniker": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "ToolTip": "C:\\Users\\minhk\\OneDrive\\M\u00E1y t\u00EDnh\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "RelativeToolTip": "WEBANNUOCHOA\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "RelativeToolTip": "WEBANNUOCHOA\\Views\\NonProduct\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T10:47:27.988Z",
+              "WhenOpened": "2024-04-15T11:48:53.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WEBANNUOCHOA\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WEBANNUOCHOA\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABQBAAAAAAAAAAD4vx0BAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-15T10:56:48.155Z",
               "EditorCaption": ""
             }
           ]

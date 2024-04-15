@@ -1,66 +1,74 @@
 ﻿@model IEnumerable<WEBANNUOCHOA.Models.Product>
 
-@{
-    ViewData["Title"] = "Index";
-    int numOfQuantity = 1;
-    
-}
+@{int numOfQuantity = 1;}
 
-<h2>Danh sách sản phẩm</h2>
-
-
-<form asp-action="Index" method="get">
-    <div class="form-group">
-        <label for="searchTerm">Search Product Name:</label>
-        <input type="text" class="form-control" id="searchTerm" name="searchTerm" placeholder="Enter product name">
-        <button type="submit" class="btn btn-primary">Search</button>
+<div class="container pt-5">
+    <div class="row thanhtimkiem">
+        <div class="col-md-3">
+            <form asp-action="Index" method="get" class="pt-5">
+                <div class="input-group form-group">
+                    <input type="text" class="form-control py-4 px-3" placeholder="Tìm kiếm..." id="searchTerm" name="searchTerm">
+                    <button class="btn btn-warning px-3" type="button">
+                        <i class="bi bi-search fs-4 text-light"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
-</form>
-<section class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="pb-4 fw-bold" style="font-family: sans-serif;">Tất cả sản phẩm</h1>
-            </div>
-            <div class="row">
-                @foreach (var product in Model)
-                {
+    <div class="row pt-4 danhmuc">
+        <div class="col-md-3">
+            <h4>Danh mục</h4>
+            <ul class="list-group">
+                <li class="list-group-item py-3">
+                    <a class="text-decoration-none fw-bold text-dark" asp-controller="MaleProduct" asp-action="Index">Nước hoa nam</a>
+                </li>
+                <li class="list-group-item py-3">
+                    <a class="text-decoration-none fw-bold text-dark" asp-controller="FemaleProduct" asp-action="Index">Nước hoa nữ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">          
 
-                    <div class="col-md-4">
-                        <div class="block__card">
-                            <a asp-action="Display" asp-route-id="@product.Id" class="item__cart" >
-                                <img src="@product.ImageUrl" class="img-fluid d-block m-auto" alt="@Html.DisplayFor(modelItem => product.Name)">
-                            </a>
+                @* <h3 class="pb-4 fw-bold" style="font-family: sans-serif;">Tất cả sản phẩm</h3> *@
+                <div class="row">
+                    @foreach (var product in Model)
+                    {
 
-                            <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post" class="item__cart">
-                                <input type="hidden" name="productId" value="@product.Id" />
-                                <input type="hidden" id="quantity" name="quantity" value="1" min="1" />
-                                <button class="btn btn-dark">THÊM VÀO GIỎ HÀNG</button>
-                            </form>
-
-                            <div class="card-body card-body--item text-center pt-0 mt-0 pb-2">
-                                <div class="block__star pb-2 text-warning" style="cursor: pointer;">
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                </div>
-                                <a class="text-decoration-none text-dark" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@product.Id" asp-route-quantity="@numOfQuantity">
-                                    <h5 class="card-title fw-bold">@Html.DisplayFor(modelItem => product.Name)</h5>
+                        <div class="col-md-4">
+                            <div class="block__card">
+                                <a asp-action="Display" asp-route-id="@product.Id" class="item__cart">
+                                    <img src="@product.ImageUrl" class="img-fluid d-block m-auto" alt="@Html.DisplayFor(modelItem => product.Name)">
                                 </a>
-                                <div class="d-flex justify-content-center">
-                                    <p class="fs-5 mb-1 fw-bold text-warning">@product.Price.ToString("#,##0") VNĐ</p>
+
+                                <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post" class="item__cart">
+                                    <input type="hidden" name="productId" value="@product.Id" />
+                                    <input type="hidden" id="quantity" name="quantity" value="1" min="1" />
+                                    <div style="margin-left: 0px !important;"><button class="btn btn-dark">THÊM VÀO GIỎ HÀNG</button></div>
+                                </form>
+
+                                <div class="card-body card-body--item text-center pt-0 mt-0 pb-2">
+                                    <div class="block__star pb-2 text-warning" style="cursor: pointer;">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <a class="text-decoration-none text-dark" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@product.Id" asp-route-quantity="@numOfQuantity">
+                                        <h5 class="card-title fw-bold">@Html.DisplayFor(modelItem => product.Name)</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 mb-1 fw-bold text-warning">@product.Price.ToString("#,##0") VNĐ</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-
-
-                }
-            </div>
+                    }
+                </div>
             
         </div>
     </div>
-</section>
+</div>
+
+
+

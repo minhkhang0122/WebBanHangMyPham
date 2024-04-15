@@ -21,44 +21,55 @@ html {
     border: 2px solid transparent;
     transition: 0.3s;
 }
+
 .aboutus .bi {
     color: white;
     padding: 11px 16px;
     width: 32px;
     height: 32px;
 }
+
 .aboutus .col-md-3:hover .bi::before {
     transform: rotateY(360deg);
     transition: 0.3s;
 }
+
 .aboutus .security .bi {
     background-color: #7ac143;
 }
+
 .aboutus .security:hover {
     border: 2px solid #7ac143;
 }
+
 .aboutus .gift i {
     background-color: #ff642f;
 }
+
 .aboutus .gift:hover {
     border: 2px solid #ff642f;
 }
+
 .aboutus .credit_card i {
     background-color: #fdbb4b;
 }
+
 .aboutus .credit_card:hover {
     border: 2px solid #fdbb4b;
 }
 /* Phần giới thiệu */
 .title {
-    font-family:'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
+
 .introduce .block__4item {
     width: 517px;
 }
+
 .block__nvchuyennghiep .bi {
     color: #7ac143;
 }
+
 .block__nvchuyennghiep span {
     font-weight: 700;
     font-style: italic;
@@ -67,70 +78,118 @@ html {
 .ccdv__4item {
     width: 1200px;
 }
-.ccdv__4item div {
-    width: 270px;
-    background-color: #ccc;
-    border-radius: 20px;
-    padding-top: 10px;
-    transition: 0.4s;
-    margin-top: 40px;
-}
-.ccdv__4item div:hover {
-    transform: translateY(-10%);
-}
-.ccdv__4item i {
-    padding: 12px 17px;
-    background-color: white;
-}
-.ccdv__4item div:hover i::before {
-    transform: rotateY(360deg) !important;
-    transition: transform 0.4s ease-in-out;
-}
-/*Xanh*/
-.ccdv__4item .add i {
-    color: #00a3fb;
-}
-.ccdv__4item .add {
-    background-color:#00a3fb;
-    color: white;
-}
-/*Xanh lá cây*/
-.ccdv__4item .check i {
-    color: #7ac143;
-}
-.ccdv__4item .check {
-    background-color:#7ac143;
-    color: white;
-}
-/*Vàng*/
-.ccdv__4item .cate i {
-    color: #fdbb4b;
-}
-.ccdv__4item .cate {
-    background-color: #fdbb4b;
-    color: white;
-}
-/*Đỏ*/
-.ccdv__4item .guide i {
-    color: #ff642f;
-}
-.ccdv__4item .guide {
-    background-color: #ff642f;
-    color: white;
-}
-.ccdv__4item h4 {
-    margin: 25px 0px 20px 0px;
-}
 
+    .ccdv__4item div {
+        width: 270px;
+        background-color: #ccc;
+        border-radius: 20px;
+        padding-top: 10px;
+        transition: 0.4s;
+        margin-top: 40px;
+    }
+
+        .ccdv__4item div:hover {
+            transform: translateY(-10%);
+        }
+
+    .ccdv__4item i {
+        padding: 12px 17px;
+        background-color: white;
+    }
+
+    .ccdv__4item div:hover i::before {
+        transform: rotateY(360deg) !important;
+        transition: transform 0.4s ease-in-out;
+    }
+    /*Xanh*/
+    .ccdv__4item .add i {
+        color: #00a3fb;
+    }
+
+    .ccdv__4item .add {
+        background-color: #00a3fb;
+        color: white;
+    }
+    /*Xanh lá cây*/
+    .ccdv__4item .check i {
+        color: #7ac143;
+    }
+
+    .ccdv__4item .check {
+        background-color: #7ac143;
+        color: white;
+    }
+    /*Vàng*/
+    .ccdv__4item .cate i {
+        color: #fdbb4b;
+    }
+
+    .ccdv__4item .cate {
+        background-color: #fdbb4b;
+        color: white;
+    }
+    /*Đỏ*/
+    .ccdv__4item .guide i {
+        color: #ff642f;
+    }
+
+    .ccdv__4item .guide {
+        background-color: #ff642f;
+        color: white;
+    }
+
+    .ccdv__4item h4 {
+        margin: 25px 0px 20px 0px;
+    }
+/*thanh tìm kiếm*/
+.thanhtimkiem input, .thanhtimkiem button {
+    border: none;
+    outline: none;
+}
+/*danh mục nam nữ*/
+.danhmuc a {
+    transition: 0.3s;
+}
+.danhmuc li:hover a {
+    color: #fdbb4b !important;
+}
+/*4 ảnh*/
+._4anh .col-md-3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 290px;
+}
+._4anh .col-md-3 img {
+    
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+._4anh .col-md-3:hover img {
+    transform: scale(1.1);
+}
+._4anh ._2anhduoi {
+    position: relative;
+     top: 60px;
+     left: 0;
+}
+._4anh ._3anhduoi {
+    position: relative;
+    top: 40px;
+    left: 0;
+}
 /* ===== NAVBAR - HOVER =====*/
 .navbar__registerlogin--user-parent {
     transition: 0.3s;
 }
 
-.navbar__registerlogin--user-parent:hover {
-    opacity: 0.7;
-    transform: rotateY(180deg);
-}
+    .navbar__registerlogin--user-parent:hover {
+        opacity: 0.7;
+        transform: rotateY(180deg);
+    }
 
 .navbar__registerlogin--user {
     transition: 0.3s;
@@ -181,18 +240,18 @@ html {
     position: relative;
 }
 
-    .gachngang::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 9px;
-        width: 0;
-        height: 3px;
-        background-color: white;
-        visibility: hidden;
-        opacity: 0;
-        transition: 0.3s;
-    }
+.gachngang::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
 
     .gachngang:hover::after {
         visibility: visible;
@@ -223,9 +282,10 @@ html {
 }
 /* CSS cho nút thêm giỏ hàng */
 .item__cart button {
-    margin-left: 116px;
     transition: 0.3s ease-in-out !important;
     opacity: 0;
+    display: block;
+    margin: auto;
 }
 
 .item__cart .img-fluid {
@@ -303,5 +363,3 @@ html {
 .newsletter:hover {
     opacity: 0.7;
 }
-
-
