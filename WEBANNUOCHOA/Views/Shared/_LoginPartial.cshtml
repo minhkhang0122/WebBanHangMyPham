@@ -5,37 +5,50 @@
 @inject UserManager<ApplicationUser> UserManager
 
 <ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    <li class="nav-item">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
             <a id="manage" class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
                 <span>Hello @UserManager.GetUserName(User)!</span>
             </a>
-    </li>
-    <div class="dropdown">
-        <div class="fs-5 btn-outline-light btn dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="bi bi-person-circle"></i>
+        </li>
+        <div class="dropdown me-2">
+            <div class="fs-5 btn-outline-light btn dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle"></i>
+            </div>
+            <ul class="dropdown-menu">
+                <li class="nav-item">
+                    <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <a id="manage" class="nav-link text-dark" asp-area="Admin" asp-controller="AdminHome" asp-action="Index">Admin DashBoard</a>
+                </li>
+            </ul>
         </div>
-        <ul class="dropdown-menu">
-            <li class="nav-item">
-                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                    <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
-                </form>
-            </li>
-            <li class="nav-item">
-                <a id="manage" class="nav-link text-dark" asp-area="Admin" asp-controller="AdminHome" asp-action="Index">Admin DashBoard</a>
-            </li>
-        </ul>
-    </div>
 
-}
-else
-{
-    <li class="nav-item">
-        <a class="nav-link text-light fw-bold" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    }
+    else
+    {
+        <li class="nav-item position-relative" style="left: -15px; font-size: 23px; top: 1px;">
+            <a id="register2" class="nav-link navbar__registerlogin--user-parent text-light" asp-area="Identity" asp-page="/Account/Register">
+                <i class="bi bi-person-circle"></i>
+            </a>
+            <ul class="position-absolute bg-light ps-0 navbar__registerlogin--user" style="z-index: 1; top: 59px; right: 2px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <li class="list-unstyled d-flex">
+
+                    <a class="nav-link text-dark fw-bold pt-2 gachngang" id="register" style="font-size:16px;" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                    <span class="pt-0">/</span>
+                    <a class="nav-link text-dark fw-bold pt-2 gachngang" id="login" style="z-index: 1; font-size:16px;" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                </li>
+            </ul>
+        </li>
+        @* <li class="nav-item">
+    <a class="nav-link text-light fw-bold" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-light fw-bold" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
-}
+    <a class="nav-link text-light fw-bold" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li> *@
+    }
 </ul>

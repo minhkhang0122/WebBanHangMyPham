@@ -29,6 +29,8 @@ namespace WEBANNUOCHOA.Controllers
 
             return View(products);
         }
+
+        
         public async Task<IActionResult> Display(int id)
         {
             var product = await _productRepository.GetByIdAsync(id);

@@ -14,32 +14,36 @@
 
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WEBANNUOCHOA.styles.css" asp-append-version="true" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
     <div class="container-fluid px-0">
         <div class="row">
             <div class="col-md-12">
-                <nav class="navbar d-block navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow py-4" style="background-color: black;">
+                <nav class="navbar d-block navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow py-4 " style="background-color: black;">
                     <div class="container">
                         <!-- Logo-brand -->
                         <a class="navbar-brand fw-bolder fs-4 text-light " asp-area="" asp-controller="Home" asp-action="Index">THREE FRIENDS</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">                           
+                                aria-expanded="false" aria-label="Toggle navigation">
                             <i class="bi bi-list text-light fs-1"></i>
                         </button>
 
                         <!-- Nav-link: Home / Privacy / All Product -->
                         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                            <ul class="navbar-nav flex-grow-1 d-flex justify-content-center">
+                            <ul class="navbar-nav flex-grow-1 justify-content-center z-n1">
                                 <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
+                                    <a class="nav-link text-light fw-bold gachngang" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="Home" asp-action="Privacy">Chính Sách</a>
+                                    <a class="nav-link text-light fw-bold gachngang" asp-area="" asp-controller="Home" asp-action="Privacy">Chính Sách</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light fw-bold" asp-area="" asp-controller="NonProduct" asp-action="Index">Sản Phẩm</a>
+                                    <a class="nav-link text-light fw-bold gachngang" asp-area="" asp-controller="NonProduct" asp-action="Index">Sản Phẩm</a>
                                 </li>
                             </ul>
 
@@ -48,92 +52,121 @@
 
                             <!-- Cart-->
                             <div class="block__cart">
-                                <a asp-area="" asp-controller="ShoppingCart" asp-action="Index">
-                                    <i class="bi bi-bag-check text-light fs-4 ps-2"></i>
-                                </a>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link p-0" asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+                                            <i class="bi bi-bag-check text-light fs-4"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
                 </nav>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid px-0">
+                <div id="carouselExampleAutoplaying" class="carousel slide position-relative z-n1" data-bs-ride="carousel" data-bs-interval="5000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/images/slide/slider 1.jpg" class="d-block w-100" alt="Nước hoa nam chính hãng - Three Friends">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/images/slide/slider 2.jpg" class="d-block w-100" alt="Nước hoa nam chính hãng - Three Friends">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/images/slide/slider 3.jpg" class="d-block w-100" alt="Nước hoa nam chính hãng - Three Friends">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" style="z-index: unset;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-    
-    
+
+    @* Body *@
     <div class="container-fluid px-0">
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <!-- Footer -->
-    <footer class="container-fluid pb-5" data-bs-theme="dark" style="background-color: black;">
+    @* Footer *@
+    <div class="container-fluid" style="background-color: black;">
         <div class="container">
-            <div class="row py-5">
-                <div class="footer col-lg-2 offset-lg-1">
-                    <p class="text-light fw-bold">Danh Mục Nước Hoa</p>
-                    <p class="text-secondary">Nước Hoa Nam</p>
-                    <p class="text-secondary">Nước Hoa Nữ</p>
-                    <p class="text-secondary">Sản Phẩm Bán Chạy</p>
-                </div>
-                <div class="footer col-lg-2">
-                    <p class="text-light fw-bold">Về Three Friends</p>
-                    <p class="text-secondary">Câu Chuyện Của Chúng Tôi</p>
-                    <p class="text-secondary">Tin Khuyến Mãi</p>
-                    <p class="text-secondary">Tin Tức Three Friends</p>
-                    <p class="text-secondary">Tuyển Dụng</p>
-                    <p class="text-secondary">Đặt Tiệc Sinh Nhật</p>
-                </div>
-                <div class="footer col-lg-2">
-                    <p class="text-light fw-bold">Liên Hệ Three Friends</p>
-                    <p class="text-secondary">Theo dõi đơn hàng</p>
-                    <p class="text-secondary">Hệ Thống Nhà Hàng</p>
-                    <p class="text-secondary">Liên Hệ Three Friends</p>
-                </div>
-                <div class="footer col-lg-2">
-                    <p class="text-light fw-bold">Chính Sách</p>
-                    <p class="text-secondary">Chính sách hoạt động</p>
-                    <p class="text-secondary">Chính sách và quy định</p>
-                    <p class="text-secondary">Chính sách bảo mật thông tin</p>
-                </div>
-                <div class="footer col-lg-2">
-                    <p class="text-light fw-bold">Download App</p>
-                    <a href="" class="btn btn-success">Download</a>
-                </div>
-            </div>
-            <div class="row pt-5">
-                <div class="col-lg-12 text-light text-center">
-                    <span>Copyright © 2023 Three Friends Vietnam</span>
-                </div>
-                <div class="col-lg-12 text-light text-end footer__social">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-youtube"></i>
-                    <i class="bi bi-twitter"></i>
-                </div>
-            </div>
-            <div class="row py-3">
-                <div class="col-lg-10 offset-1">
-                    <hr class="hr bg-light" />
-                </div>
-            </div>
-            <div class="row text-secondary">
-                <div class="col-lg-5 offset-1">
-                    <h3 class="text-light">CÔNG TY LIÊN DOANH TNHH THREE FRIENDS VIỆT NAM</h3>
-                    <div class="block--info d-flex flex-column">
-                        <span>Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.</span>
-                        <span>Điện thoại: (028) 38489828</span>
-                        <span>Email: lienhe@threefriendsvietnam.com.vn</span>
-                        <span>Mã số thuế: 0100773885</span>
-                        <span>Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nội</span>
+            <div class="row py-5 justify-content-center">
+                @* Title - Info *@
+                <div class="col-md-2" style="width: 250px;">
+                    <p class="fw-bolder fs-4 pb-4 text-light" style="font-family: fantasy;">THREE FRIENDS</p>
+                    <p class="pb-3 text-light"><strong>Phone: </strong>0123456789</p>
+                    <p class="pb-3 text-light"><strong>Email: </strong>threefriends@gmail.com</p>
+                    <div class="footer__icon--MXH">
+                        <i class="bi bi-facebook text-light"></i>
+                        <i class="bi bi-twitch px-3 text-light"></i>
+                        <i class="bi bi-youtube pe-3 text-light"></i>
+                        <i class="bi bi-instagram text-light"></i>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <a href="#"><img src="https://kfcvn-static.cognizantorderserv.com/images/email/logo_footer.png" class="img--moveright" /></a>
+                @* Infomation *@
+                <div class="col-md-2">
+                    <p class="fw-bold text-light">INFORMATION</p>
+                    <p class="text-light mb-1">About Us</p>
+                    <p class="text-light mb-1">Contact Us</p>
+                    <p class="text-light mb-1">Career</p>
+                    <p class="text-light mb-1">My Account</p>
+                    <p class="text-light mb-1">Orders and Returns</p>
+                </div>
+                @* Quick Shop *@
+                <div class="col-md-2">
+                    <p class="fw-bold text-light">QUICK SHOP</p>
+                    <p class="text-light mb-1">Perfume</p>
+                    <p class="text-light mb-1">Men</p>
+                    <p class="text-light mb-1">Girl</p>
+                    <p class="text-light mb-1">Best Seller</p>
+                </div>
+                @* Customer Service *@
+                <div class="col-md-2">
+                    <p class="fw-bold text-light">CUSTOMER SERVICES</p>
+                    <p class="text-light mb-1">Help & FAQs</p>
+                    <p class="text-light mb-1">Returns Policy</p>
+                    <p class="text-light mb-1">Terms & Conditions</p>
+                    <p class="text-light mb-1">Privacy Policy</p>
+                    <p class="text-light mb-1">Support Center</p>
+                </div>
+                @* Newsletter *@
+                <div class="col-md-2 ">
+                    <p class="fw-bold text-light">NEWSLETTER</p>
+                    <p class="text-light mb-3">Enter your email to receive daily news and get 20% off coupon for all items.</p>
+                    <input type="text" placeholder="Địa chỉ email" class="ps-2 py-2" style="outline:none; border: none;" />
+                    <a class="bg-success text-decoration-none text-light d-inline-block mt-2 px-3 fw-bold newsletter" style="font-size: 13px; transition: 0.3s; cursor: pointer; padding-top: 9px; padding-bottom: 9px;">SUBSCRIBE</a>
+                </div>
+            </div>
+            @* hr *@
+            <div class="row justify-content-center">
+                <div class="col-md-11">
+                    <hr class="text-light" />
+                </div>
+            </div>
+            @* Copyright *@
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center text-light">© 2024 Three Friends. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+
+    @* Import JS *@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

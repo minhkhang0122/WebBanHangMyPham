@@ -1,24 +1,171 @@
 ﻿html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+/* Giao diện chính */
+/* About us */
+.aboutus .col-md-3 {
+    background-color: rgb(108 117 125 / 9%);
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+.aboutus .bi {
+    color: white;
+    padding: 11px 16px;
+    width: 32px;
+    height: 32px;
+}
+.aboutus .col-md-3:hover .bi::before {
+    transform: rotateY(360deg);
+    transition: 0.3s;
+}
+.aboutus .security .bi {
+    background-color: #7ac143;
+}
+.aboutus .security:hover {
+    border: 2px solid #7ac143;
+}
+.aboutus .gift i {
+    background-color: #ff642f;
+}
+.aboutus .gift:hover {
+    border: 2px solid #ff642f;
+}
+.aboutus .credit_card i {
+    background-color: #fdbb4b;
+}
+.aboutus .credit_card:hover {
+    border: 2px solid #fdbb4b;
+}
+/* Phần giới thiệu */
+.title {
+    font-family:'Oswald', sans-serif;
+}
+.introduce .block__4item {
+    width: 517px;
+}
+.block__nvchuyennghiep .bi {
+    color: #7ac143;
+}
+.block__nvchuyennghiep span {
+    font-weight: 700;
+    font-style: italic;
+}
+/* Cung cấp dịch vụ */
+.ccdv__4item {
+    width: 1200px;
+}
+.ccdv__4item div {
+    width: 270px;
+    background-color: #ccc;
+    border-radius: 20px;
+    padding-top: 10px;
+    transition: 0.4s;
+    margin-top: 40px;
+}
+.ccdv__4item div:hover {
+    transform: translateY(-10%);
+}
+.ccdv__4item i {
+    padding: 12px 17px;
+    background-color: white;
+}
+.ccdv__4item div:hover i::before {
+    transform: rotateY(360deg) !important;
+    transition: transform 0.4s ease-in-out;
+}
+/*Xanh*/
+.ccdv__4item .add i {
+    color: #00a3fb;
+}
+.ccdv__4item .add {
+    background-color:#00a3fb;
+    color: white;
+}
+/*Xanh lá cây*/
+.ccdv__4item .check i {
+    color: #7ac143;
+}
+.ccdv__4item .check {
+    background-color:#7ac143;
+    color: white;
+}
+/*Vàng*/
+.ccdv__4item .cate i {
+    color: #fdbb4b;
+}
+.ccdv__4item .cate {
+    background-color: #fdbb4b;
+    color: white;
+}
+/*Đỏ*/
+.ccdv__4item .guide i {
+    color: #ff642f;
+}
+.ccdv__4item .guide {
+    background-color: #ff642f;
+    color: white;
+}
+.ccdv__4item h4 {
+    margin: 25px 0px 20px 0px;
+}
+
 /* ===== NAVBAR - HOVER =====*/
+.navbar__registerlogin--user-parent {
+    transition: 0.3s;
+}
+
+.navbar__registerlogin--user-parent:hover {
+    opacity: 0.7;
+    transform: rotateY(180deg);
+}
+
+.navbar__registerlogin--user {
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.nav-item:hover .navbar__registerlogin--user {
+    opacity: 1;
+}
+/* CSS tam giác cho register và login */
+.navbar__registerlogin--user li::after {
+    content: "";
+    position: absolute;
+    top: -21px;
+    width: 0;
+    height: 0;
+    border: 11px solid #ffd70000;
+    border-bottom-color: white;
+    right: 7px;
+}
 /* CSS font chữ và hover cho navbar-brand / thanh menu của navbar */
-.navbar-brand, .bi-list, .bi-bag-check {
+.navbar-brand, .bi-list, {
     font-family: fantasy;
     transition: 0.3s ease;
 }
-.navbar-brand:hover, .bi-list:hover, .bi-bag-check:hover, .nav-link:hover {
+
+.block__cart a {
+    transition: 0.3s;
+}
+
+    .block__cart a:hover {
+        transform: rotateY(180deg);
+    }
+
+.navbar-brand:hover, .bi-list:hover, .bi-bag-check:hover {
     opacity: 0.6 !important;
 }
 /* CSS nút menu của navbar - Part 2 */
@@ -29,9 +176,34 @@ html {
     }
 }
 /* CSS hover cho nav-link */
-.nav-link {
+.gachngang {
     transition: 0.3s ease;
+    position: relative;
 }
+
+    .gachngang::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 9px;
+        width: 0;
+        height: 3px;
+        background-color: white;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .gachngang:hover::after {
+        visibility: visible;
+        opacity: 1;
+        width: 80%;
+    }
+
+    .gachngang:hover {
+        opacity: 0.7;
+    }
+
 /* === CSS cho Admin === */
 .iconAndImage--item {
     font-family: sans-serif;
@@ -41,68 +213,95 @@ html {
     font-family: Oswald, sans-serif;
     font-weight: 700;
 }
+
 .chinhsach .chuinnghieng {
     font-style: italic;
 }
+
 .chinhsach p {
     margin: 30px 0px !important;
 }
-/* Footer */
-.footer p {
-    margin-bottom: 5px;
-}
-
-.footer p:hover {
-    color: white !important;
-    cursor: pointer;
-}
-
-.footer__social .bi {
-    border: 2px solid white !important;
-    padding: 10px !important;
-    margin-right: 5px !important;
-    border-radius: 13px !important;
-    cursor: pointer;
-}
-
-.hr {
-    background-color: white !important;
-    border: 1px solid white !important;
-}
-
-.img--moveright {
-    margin-left: 100px;
-}
-.skill {
-    content: "";
-    background-color: white !important;
-    position: absolute;
-    top: -41px;
-    left: 0;
-    height: 40px;
-    width: 287px;
-}
 /* CSS cho nút thêm giỏ hàng */
-.btn__cart {
-    position: relative;
-    margin-left: 55px;
-    transition: 0.5s;
-    visibility: hidden;
-    transition: 0.5s linear;
+.item__cart button {
+    margin-left: 116px;
+    transition: 0.3s ease-in-out !important;
+    opacity: 0;
 }
-.block__card:hover .btn__cart {
+
+.item__cart .img-fluid {
+    width: 250px;
+    position: relative;
+    top: 22px;
+    transition: 0.3s !important;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.block__card:hover .img-fluid {
+    transform: translateY(-6%);
+}
+
+.block__card:hover button {
     transform: translateY(-50%);
-    visibility: visible;
+    opacity: 1;
 }
-.img__cart {
+/* CSS hover vào card-title */
+.card-title {
+    transition: 0.2s;
+    font-family: "Open Sans", sans-serif;
+}
+
+    .card-title:hover {
+        color: #6988f6 !important;
+    }
+/* CSS cho trang Login */
+.login--title {
     position: relative;
-    top: 34px;
-    transition: 0.3s ease;
+    left: 115px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
 }
-.block__card:hover .img__cart {
-    top: 2px;
+
+    .login--title::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 3px;
+        width: 30%;
+        background-color: black;
+        height: 4px;
+    }
+/* CSS cho nút login-submit VÀ registerSubmit trong Login */
+#login-submit, #registerSubmit {
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+    #login-submit:hover {
+        background-color: black;
+    }
+
+#registerSubmit {
+    background-color: black;
+}
+
+#login-submit {
+    background-color: #fdbb4b;
+}
+
+#registerSubmit:hover {
+    background-color: #fdbb4b;
+}
+/* CSS cho input form-control trong Login */
+.form-control {
+    border-radius: 10px;
+    background-color: #ccc6;
 }
 
 
+/* FOOTER*/
+.newsletter:hover {
+    opacity: 0.7;
+}
 
 
