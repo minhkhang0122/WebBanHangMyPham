@@ -8567,19 +8567,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\minhk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder\\lkg\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
+      "projectUniqueName": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
       "projectName": "WEBANNUOCHOA",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\New folder\\lkg\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\New folder\\lkg\\WebBanHangMyPham\\WEBANNUOCHOA\\obj\\",
+      "projectPath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
+      "packagesPath": "C:\\Users\\minhk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\minhk\\OneDrive\\Máy tính\\FinalWebApplicationWithAPI\\WebBanHangMyPham\\WEBANNUOCHOA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\minhk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8660,7 +8660,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

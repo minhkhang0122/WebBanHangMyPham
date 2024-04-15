@@ -34,7 +34,7 @@
 
                             <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post" class="item__cart">
                                 <input type="hidden" name="productId" value="@product.Id" />
-                                <input type="hidden" id="quantity" name="quantity" value="@product.Id" min="1" />
+                                <input type="hidden" id="quantity" name="quantity" value="1" min="1" />
                                 <button class="btn btn-dark">THÊM VÀO GIỎ HÀNG</button>
                             </form>
 

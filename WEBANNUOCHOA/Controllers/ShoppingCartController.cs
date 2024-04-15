@@ -47,8 +47,15 @@ namespace WEBANNUOCHOA.Controllers
             _context.Orders.Add(order); await _context.SaveChangesAsync();
 
             HttpContext.Session.Remove("Cart");
+            var viewModel = new OrderCompletedViewModel
+            {
 
-            return View("OrderCompleted", order.Id);
+                OrderId = order.Id,
+                UserName = user.FullName,
+                OrderDate = order.OrderDate.ToString("dd/MM/yyyy HH:mm:ss") // Format date as dd/MM/yyyy HH:mm:ss
+            };
+
+            return View("OrderCompleted", viewModel);
         }
         public async Task<IActionResult> AddToCart(int productId, int quantity)
         {

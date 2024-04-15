@@ -1,4 +1,5 @@
-﻿@model int
+﻿@model WEBANNUOCHOA.Models.OrderCompletedViewModel// Update model type
 
 <h2>Order Completed</h2>
-<p>Your order with ID @Model has been placed successfully.</p>
+<p>Dear @Model.UserName,</p>
+<p>Your order has been placed successfully on @Model.OrderDate.</p>

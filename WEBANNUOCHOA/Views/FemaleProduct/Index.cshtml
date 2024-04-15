@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WEBANNUOCHOA.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int numOfQuantity = 1;
+}
+
+<h2>Danh sách sản phẩm nữ</h2>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="pb-4 fw-bold" style="font-family: sans-serif;">Tất cả sản phẩm</h1>
+            </div>
+            <div class="row">
+                @foreach (var product in Model)
+                {
+                    @if (product.Category.Name == "Nữ")
+                    {
+                        <div class="col-md-4">
+                            <div class="block__card">
+                                <a asp-action="Display" asp-route-id="@product.Id" class="item__cart">
+                                    <img src="@product.ImageUrl" class="img-fluid d-block m-auto" alt="@Html.DisplayFor(modelItem => product.Name)">
+                                </a>
+
+                                <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post" class="item__cart">
+                                    <input type="hidden" name="productId" value="@product.Id" />
+                                    <input type="hidden" id="quantity" name="quantity" value="@product.Id" min="1" />
+                                    <button class="btn btn-dark">THÊM VÀO GIỎ HÀNG</button>
+                                </form>
+
+                                <div class="card-body card-body--item text-center pt-0 mt-0 pb-2">
+                                    <div class="block__star pb-2 text-warning" style="cursor: pointer;">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <a class="text-decoration-none text-dark" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@product.Id" asp-route-quantity="@numOfQuantity">
+                                        <h5 class="card-title fw-bold">@Html.DisplayFor(modelItem => product.Name)</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 mb-1 fw-bold text-warning">@product.Price.ToString("#,##0") VNĐ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+
+        </div>
+    </div>
+</section>
