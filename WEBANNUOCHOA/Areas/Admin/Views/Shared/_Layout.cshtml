@@ -62,7 +62,7 @@
                     <div class="sb-sidenav-menu-heading pt-3 pb-2">Danh mục</div>
 
                     <!-- Category-->
-                    <div class="">
+                    <div>
                         <a class="text-decoration-none text-light chuCotTrai ps-1 collapsed py-2" asp-area="Admin" asp-controller="Category" asp-action="Index">
                             <i class="fas fa-columns"></i>
                             <span class="ps-1 fw-bold">Category</span>
@@ -76,6 +76,14 @@
                             <span class="ps-1 fw-bold">Product</span>
                         </a>
                     </div>
+                  
+                    @* Profile *@
+                    <div class="mt-3 admin__cottrai--profile">
+                        <a class="text-decoration-none text-light chuCotTrai ps-1 collapsed mt-4" asp-area="Identity" asp-page="/Account/Manage/Index">
+                            <i class="bi bi-person-fill"></i>
+                            <span class="ps-1 fw-bold">Profile</span>
+                        </a>
+                    </div>
                     
                     <div class="sb-sidenav-footer position-absolute" style="bottom: 15px; left: 60px;">
                         <span class="small">Logged in as:</span>
@@ -84,34 +92,59 @@
                 </div>
             </div>
             <div class="col-md-10 position-relative">
-                <div class="row border-bottom">                   
-                    <!--Nút đăng xuất -->
-                    <div class="text-end py-4">
-                        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                            <button id="logout" type="submit" class="btn btn-success">Logout</button>
-                        </form>
+                <div class="row border-bottom"> 
+                                        
+                    <div style="padding-top: 19px !important;padding-bottom: 23px;">
+                        @* Dropdown *@
+                        <div class="dropdown float-end">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person-check-fill fs-5"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="li__profile--dropdown">
+                                    <a class="dropdown-item mt-2 mb-3 pb-1" asp-area="Identity" asp-page="/Account/Manage/Index">                                       
+                                        <span>@UserManager.GetUserName(User)</span>
+                                    </a>
+                                </li>
+                                <li class="li__profile--dropdown">
+                                    <a class="dropdown-item my-2" asp-area="Identity" asp-page="/Account/Manage/Index">
+                                        <i class="bi bi-person-fill"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-danger my-2" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                        <i class="bi bi-box-arrow-left"></i>
+                                        <span>Đăng xuất</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        @* Trang chủ > Dashboard *@
+                        <div style="padding-top: 10px;">
+                            <a class="text-secondary gachngang text-decoration-none ps-2" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
+                            <span>></span>
+                            <a asp-area="Admin" asp-controller="AdminHome" asp-action="Index" type="submit" class="text-dark text-decoration-none">Dashboard</a>
+                        </div>
                     </div>
-                    <!--Nút về trang chính, sửa giúp--> 
-                    <div class="">
-                        <form id="logoutForm" class="form-inline" asp-area="" asp-controller="Home" asp-action="Index">
-                            <button type="submit" class="btn btn-success">To main Page</button>
-                        </form>
-                    </div>
-                    
+                                       
                 </div>
                
                 <div class="row">
                     <main>
-                        <div class="container-fluid px-4 py-4">
+                        <div class="container-fluid p-4">
                             @RenderBody()
                         </div>
                     </main>
+                    
+                </div>
+                <div class="row mt-5">
                     <div class="py-4 bg-light position-absolute" style="bottom: 0; left: 0;">
                         <div class="container-fluid px-4">
                             <div class="text-center text-secondary">Copyright &copy; Your Website 2023</div>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </div>

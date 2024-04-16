@@ -1,5 +1,22 @@
 ﻿@model WEBANNUOCHOA.Models.OrderCompletedViewModel// Update model type
 
-<h2>Order Completed</h2>
+@* <h2>Order Completed</h2>
 <p>Dear @Model.UserName,</p>
-<p>Your order has been placed successfully on @Model.OrderDate.</p>
+<p>Your order has been placed successfully on @Model.OrderDate.</p> *@
+
+<div class="container block__order">
+    <div class="row">
+
+        @* Logo *@
+        <div class="col-md-12 text-center order--logo">
+            <i class="bi bi-check-circle-fill"></i>
+        </div>
+
+        @* Thông báo mua hàng thành công *@
+        <div class="col-md-12 text-center order--thongbao">
+            <h1 class="py-3">Mua hàng thành công!</h1>
+            <p>Chúc mừng @Model.UserName, đơn hàng của bạn đã được đặt thành công vào @Model.OrderDate.</p>
+            <p>Chúc bạn có một ngày tốt lành!</p>
+        </div>
+    </div>
+</div>

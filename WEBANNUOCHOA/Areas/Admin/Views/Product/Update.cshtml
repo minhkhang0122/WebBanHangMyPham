@@ -5,49 +5,57 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Update</h1>
 
-<h4>Product</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Update" enctype="multipart/form-data" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="mb-5">Cập nhật sản phẩm</h1>
+        </div>
+        <div class="row">
+            @* Cập nhật sản phẩm *@
+            <div class="col-md-4">
+                <form asp-action="Update" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    @* Tên sản phẩm *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Name" class="control-label">Tên sản phẩm *</label>
+                        <input asp-for="Name" class="form-control mt-2 py-2" style="background-color: #cccccc8c;" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    @* Giá sản phẩm *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Price" class="control-label">Giá sản phẩm *</label>
+                        <input asp-for="Price" class="form-control mt-2 py-2" style="background-color: #cccccc8c;" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    @* Mô tả sp *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Description" class="control-label">Mô tả sản phẩm *</label>
+                        <input asp-for="Description" class="form-control mt-2 py-2" style="background-color: #cccccc8c;" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    @* Danh mục *@
+                    <div class="form-group mb-3">
+                        <label asp-for="CategoryId">Danh mục sản phẩm</label>
+                        <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control mt-2 py-2" style="background-color: #cccccc8c;"></select>
+                    </div>
+                    @* Hình ảnh sản phẩm *@
+                    <div class="form-group mb-3">
+                        <label asp-for="ImageUrl">Hình ảnh sản phẩm *</label>
+                        <input type="file" asp-for="ImageUrl" class="form-control mt-2 py-2" style="background-color: #cccccc8c;" id="imageInput" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="submit" value="Lưu" class="btn btn-primary" />
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
+            @* Hình ảnh sản phẩm *@
+            <div class="col-8">
+                <img class="img-fluid" src="@Model.ImageUrl" alt="Product Image" style="width:500px; height: 450px;" id="previewImage" />
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CategoryId">Category</label>
-                <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control"></select>
-            </div>
-            <div class="form-group">
-                <input type="file" asp-for="ImageUrl" class="form-control" id="imageInput" />
-            </div>
-            <div class="form-group mt-4">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
-    <div class="col-8">
-        <img src="@Model.ImageUrl" alt="Product Image" style="max-width:200px;" id="previewImage" />
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index"><button class="btn btn-secondary mt-2">Back to List</button></a>
 </div>
 
 <script>

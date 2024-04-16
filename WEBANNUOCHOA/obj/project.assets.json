@@ -8572,11 +8572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
       "projectName": "WEBANNUOCHOA",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\WEBANNUOCHOA.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\New folder\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\New\\WebBanHangMyPham\\WEBANNUOCHOA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

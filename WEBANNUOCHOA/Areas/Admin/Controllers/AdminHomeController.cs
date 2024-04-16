@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using WEBANNUOCHOA.Models;
 using WEBANNUOCHOA.Repositories;
@@ -26,12 +27,21 @@ namespace WEBANNUOCHOA.Areas.Admin.Controllers
         {
             var allOrders = await _orderRepository.GetAllAsync();
 
+            var queryableOrders = allOrders.AsQueryable();
+
+
+            queryableOrders = queryableOrders.Include(order => order.OrderDetails.Select(od => od.Product))
+                                     .Include(order => order.OrderDate);
+
             var productStatistics = allOrders.GroupBy(order => order.OrderDetails.Select(od => od.ProductId))
                                              .Select(group => new ProductStatisticViewModel
                                              {
-                                                 ProductId = group.Key.FirstOrDefault(), // Assuming ProductId is the first element in the key
+                                                 ProductId = group.Key.FirstOrDefault(),
                                                  TotalQuantity = group.Sum(order => order.OrderDetails.Sum(od => od.Quantity)),
-                                                 TotalPrice = group.Sum(order => order.OrderDetails.Sum(od => od.Price * od.Quantity))
+                                                 TotalPrice = group.Sum(order => order.OrderDetails.Sum(od => od.Price * od.Quantity)),
+                                                 ProductName = group.FirstOrDefault()?.OrderDetails.FirstOrDefault()?.Product?.Name, // Access product name using eager loading
+                                                 PurchaseDate = group.FirstOrDefault()?.OrderDate
+
                                              })
                                              .ToList();
 

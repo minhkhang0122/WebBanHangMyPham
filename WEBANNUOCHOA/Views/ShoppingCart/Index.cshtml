@@ -1,33 +1,84 @@
 ﻿@model ShoppingCart
 
-<h2>Your Cart</h2>
+<div class="thanhdieuhuong--giohang py-5">
+    <div class="container-fluid">
+        <div class="container">
 
-<table class="table">
-    <tr>
-        <th>Product</th>
-        <th>Quantity</th>
-        <th>Price</th>
-        <th>Total</th>
-        <th>Action</th>
-    </tr>
-    <form class="d-flex">
-        <button class="btn btn-outline-dark" type="submit" asp-area="" asp-controller="ShoppingCart" asp-action="Checkout">
-            Check Out
-        </button>
-    </form>
+            @* Trang chủ > Giỏ hàng *@
+            <a class="text-secondary gachngang text-decoration-none ps-2" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
+            <span>></span>
+            <a asp-area="Admin" asp-controller="AdminHome" asp-action="Index" type="submit" class="text-dark text-decoration-none">Giỏ hàng</a>
+
+        </div>
+    </div>
+</div>
+
+@* Tiêu đề chính *@
+<div class="container py-3">
+    <div class="row giohang__tieudechinh py-3">
+        <div class="col-md-4">
+            <span>Sản phẩm</span>
+        </div>
+        <div class="col-md-2">
+            <span>Đơn giá</span>
+        </div>
+        <div class="col-md-2">
+            <span>Số lượng</span>
+        </div>
+        <div class="col-md-2">
+            <span>Số tiền</span>
+        </div>
+        <div class="col-md-2">
+            <span>Thao tác</span>
+        </div>
+    </div>
+</div>
+
+@* Sản phẩm giỏ hàng *@
+<div class="container pt-1 pb-5">
     @foreach (var item in Model.Items)
     {
-        <tr>
-            <td>@item.Name</td>
-            <td>@item.Quantity</td>
-            <td>@item.Price</td>
-            <td>@(item.Price * item.Quantity)</td>
-            <td>
-                <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId"><button class="btn btn-primary">Remove</button></a>
-                <a asp-controller="NonProduct" asp-action="Index" ><button class="btn btn-primary">Trở về</button></a>
-
-            </td>
-        </tr>
+        <div class="row giohang__sanpham py-4">
+            <div class="col-md-4">
+                <span>@item.Name</span>
+            </div>
+            <div class="col-md-2">
+                <span>@item.Price</span>
+            </div>
+            <div class="col-md-2">               
+                <form asp-action="UpdateQuantity" asp-route-productId="@item.ProductId">
+                    <input type="number" min="1" value="@item.Quantity" name="updateQuantity"style="width: 50px; text-align:center;"/>                    
+                </form>
+            </div>
+            <div class="col-md-2">
+                <span class="text-warning">@(item.Price * item.Quantity)</span>
+            </div>
+            <div class="col-md-2 pt-0">
+                <span>
+                    <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">
+                        <button class="btn btn-danger">Remove</button>
+                    </a>                   
+                </span>
+            </div>
+        </div>
     }
-</table>
-<p><b>Total Price: @Model.TotalPrice</b></p>
+</div>
+
+@* Đặt hàng *@
+<div class="container py-3">
+    <div class="row giohang__dathang py-4">
+        <div class="col-md-6" style="padding-top: 12px;">
+            <h5>Tổng thanh toán: <span class="text-warning">@Model.TotalPrice</span></h5>
+            
+        </div>
+        <div class="col-md-6 text-end">
+            <form>
+                <button class="btn me-3" type="submit" asp-area="" asp-controller="ShoppingCart" asp-action="Checkout">
+                    Đặt hàng
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+

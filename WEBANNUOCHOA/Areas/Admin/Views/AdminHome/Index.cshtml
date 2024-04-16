@@ -12,22 +12,56 @@
 }
 
 
-<!--Hiển thị tên mail trong của người đăng nhập-->
-    <a id="manage" class=" nav-link text-Dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> @UserManager.GetUserName(User)</a> 
-<h2>Product Statistics</h2>
+@* Tiêu đề chính *@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Thống kê sản phẩm</h2>
+        </div>
+    </div>
+</div>
 
-<table class="table">
-    <tr>
-        <th>Product ID</th>
-        <th>Total Quantity</th>
-        <th>Total Price</th>
-    </tr>
-    @foreach (var stat in Model)
-    {
-        <tr>
-            <td>@stat.ProductId</td>
-            <td>@stat.TotalQuantity</td>
-            <td>@stat.TotalPrice</td>
-        </tr>
-    }
-</table>
+@* Bảng thống kê người đặt hàng *@
+<div class="thongkesanpham pt-4">
+    <div class="container">
+        @* Tiêu đề *@
+        <div class="row tieude fw-bold">
+            <div class="col-md-4" style="border-left: 2px solid black;">
+                <h5>Tên sản phẩm</h5>
+            </div>
+            <div class="col-md-2" style="border-left: 2px solid black;">
+                <h5>Mã sản phẩm</h5>
+            </div>
+            <div class="col-md-2" style="border-left: 2px solid black; border-right: 2px solid black;">
+                <h5>Số lượng</h5>
+            </div>
+            <div class="col-md-2" style="border-right: 2px solid black;">
+                <h5>Giá</h5>
+            </div>
+            <div class="col-md-2" style="border-right: 2px solid black;">
+                <h5>Ngày đặt hàng</h5>
+            </div>
+        </div>
+        @* Danh sách sản phẩm *@
+        @foreach (var stat in Model)
+        {
+            <div class="row danhsach">
+                <div class="col-md-4" style="border-left: 2px solid black;">
+                    <p>@stat.ProductName</p>
+                </div>
+                <div class="col-md-2  text-center" style="border-left: 2px solid black;">
+                    <p>@stat.ProductId</p>
+                </div>
+                <div class="col-md-2  text-center" style="border-left: 2px solid black; border-right: 2px solid black;">
+                    <p>@stat.TotalQuantity</p>
+                </div>
+                <div class="col-md-2  text-center" style="border-right: 2px solid black;">
+                    <p>@stat.TotalPrice</p>
+                </div>
+                <div class="col-md-2  text-center" style="border-right: 2px solid black;">
+                    <p>@stat.PurchaseDate?.ToString("dd/MM/yyyy || HH:mm:ss")</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>

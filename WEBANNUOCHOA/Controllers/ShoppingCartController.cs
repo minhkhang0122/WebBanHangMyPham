@@ -21,6 +21,26 @@ namespace WEBANNUOCHOA.Controllers
             _userManager = userManager;
         }
 
+        public async Task<IActionResult> UpdateQuantity(int productId, int updateQuantity)
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            if (cart == null)
+            {
+                return RedirectToAction("Index"); // Xử lý những giỏ hàng rỗng
+            }
+
+            var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+            if (existingItem != null)
+            {
+                existingItem.Quantity = updateQuantity;
+            }
+
+
+
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
+
+            return RedirectToAction("Index");
+        }
 
         public IActionResult Checkout()
         {
@@ -29,6 +49,9 @@ namespace WEBANNUOCHOA.Controllers
         [HttpPost]
         public async Task<IActionResult> Checkout(Order order)
         {
+            // Kiểm tra thông tin
+           
+
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart"); if (cart == null || !cart.Items.Any())
             {
                 // Xử lý giỏ hàng trống...

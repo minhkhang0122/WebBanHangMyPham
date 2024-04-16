@@ -6,75 +6,84 @@
 
 }
 
-<h1>Product Index</h1>
-
-@*Nút tìm kiếm sản phẩm qua tên*@
-<form asp-action="Index" method="get">
-    <div class="form-group">
-        <label for="searchTerm">Search Product Name:</label>
-        <input type="text" class="form-control" id="searchTerm" name="searchTerm" placeholder="Enter product name">
-        <button type="submit" class="btn btn-primary">Search</button>
+<div class="container">
+    <div class="row justify-content-between mb-4">
+        <div class="col-md-6">
+            <h1>Danh sách sản phẩm</h1>
+        </div>
+        <div class="col-md-4 mt-2">
+            <form asp-action="Index" method="get">
+                <div class="input-group mb-3">
+                    <input  type="text" class="form-control" placeholder="Nhập tên sản phẩm..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-warning text-light" type="button" id="button-addon2">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
-</form>
-<p>
-    <a asp-action="Add"><button class="btn btn-success">Create New</button></a>
-</p>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                Image
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                Action
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+    <p>
+        <a asp-action="Add"><button class="btn btn-success">Thêm sản phẩm</button></a>
+    </p>
+    <table class="table mt-5">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @item.Price.ToString("#,##0")
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    <img src="@item.ImageUrl" style="width: 180px; height: 200px" />
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Category.Name)
-                </td>
-                <td>
-                    <a asp-action="Update" asp-route-id="@item.Id"><button class="btn btn-primary">Update</button></a> |
-                    <a asp-action="Display" asp-route-id="@item.Id"><button class="btn btn-warning">Details</button></a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id"><button class="btn btn-danger">Delete</button></a>
-                </td>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    Image
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    Action
+                </th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @item.Price.ToString("#,##0")
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        <img src="@item.ImageUrl" style="width: 180px; height: 200px" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.Name)
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@item.Id"><button class="btn btn-primary">Chỉnh sửa</button></a> 
+                        <a asp-action="Display" asp-route-id="@item.Id"><button class="btn btn-warning mx-2">Chi tiết</button></a> 
+                        <a asp-action="Delete" asp-route-id="@item.Id"><button class="btn btn-danger mt-3">Xoá</button></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+

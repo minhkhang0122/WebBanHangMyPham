@@ -12,6 +12,62 @@ html {
     position: relative;
     min-height: 100%;
 }
+/* FIXED ACTION BUTTON */
+.bi-chevron-up {
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    padding: 11px 21px 11px 17px;
+    border-radius: 50px;
+    transition: .3s ease;
+}
+
+.bi-chevron-up:hover {
+    padding: 5px 15px 0px 18px;
+}
+.chitiet__sanpham .motasanpham {
+
+}
+.chitiet__sanpham button {
+    transition: 0.4s ease;
+}
+.chitiet__sanpham button:hover {
+    background-color: black;
+    border-color: black;
+}
+.block__order .row {
+    padding: 55px 0px;
+}
+.block__order .order--logo {
+    font-size: 35px;
+    color: #7ac143;
+}
+/* Giỏ hàng */
+.giohang__dathang button {
+    padding: 10px 55px;
+    background-color: #fdbb4b;
+    color: white;
+    transition: 0.3s;
+    border-radius: 25px;
+}
+.giohang__dathang button:hover {
+    background-color: black;
+    color: white;
+}
+.giohang__dathang, .giohang__tieudechinh, .giohang__sanpham {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.giohang__sanpham div {
+    padding-top: 10px;
+}
+.giohang__tieudechinh .col-md-2 {
+    color: #ccc;  
+}
 /* Giao diện chính */
 /* About us */
 .aboutus .col-md-3 {
@@ -287,7 +343,6 @@ html {
     display: block;
     margin: auto;
 }
-
 .item__cart .img-fluid {
     width: 250px;
     position: relative;
@@ -305,15 +360,20 @@ html {
     transform: translateY(-50%);
     opacity: 1;
 }
+
+.block__card button:hover {
+    background-color: #fdbb4b;
+    border-color: #fdbb4b !important;
+}
 /* CSS hover vào card-title */
 .card-title {
     transition: 0.2s;
     font-family: "Open Sans", sans-serif;
 }
 
-    .card-title:hover {
-        color: #6988f6 !important;
-    }
+.card-title:hover {
+    color: #6988f6 !important;
+}
 /* CSS cho trang Login */
 .login--title {
     position: relative;
@@ -363,3 +423,5 @@ html {
 .newsletter:hover {
     opacity: 0.7;
 }
+
+

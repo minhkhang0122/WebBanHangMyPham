@@ -1,15 +1,40 @@
-﻿@model Order 
-  
-<h2>Checkout</h2> 
-  
-<form asp-action="Checkout" method="post"> 
-    <div class="form-group"> 
-        <label asp-for="ShippingAddress">Shipping Address</label>
-        <input asp-for="ShippingAddress" class="form-control" /> 
-    </div> 
-    <div class="form-group"> 
-        <label asp-for="Notes">Notes</label> 
-        <textarea asp-for="Notes" class="form-control"></textarea>
+﻿@model Order
+
+<div class="thanhdieuhuong--giohang py-5">
+    <div class="container-fluid">
+        <div class="container">
+
+            @* Trang chủ > Giỏ hàng *@
+            <a class="text-secondary gachngang text-decoration-none ps-2" asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a>
+            <span>></span>
+            <a asp-area="" asp-controller="ShoppingCart" asp-action="Checkout" type="submit" class="text-dark text-decoration-none">Checkout</a>
+
+        </div>
     </div>
-    <button type="submit" class="btn btn-primary">Place Order</button>
-</form>
+</div>
+
+@* Chi tiết thanh toán *@
+<div class="container pb-5">
+    <div class="row offset-1">
+        <div class="col-md-10">
+            <h1>Chi tiết thanh toán</h1>
+        </div>
+    </div>
+    <div class="row offset-1">
+        <div class="col-md-11">
+            <form asp-action="Checkout" method="post">
+                <div class="form-group py-4">
+                    <label asp-for="ShippingAddress">Địa chỉ *</label>
+                    <input asp-for="ShippingAddress" class="form-control mt-2" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Notes">Ghi chú *</label>
+                    <textarea asp-for="Notes" class="form-control mt-2"></textarea>
+                </div>
+                <div class="giohang__dathang" style="box-shadow:none;">
+                    <button type="submit" class="btn my-4">Mua hàng</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

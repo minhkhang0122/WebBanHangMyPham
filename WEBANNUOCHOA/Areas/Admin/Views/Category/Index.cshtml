@@ -6,38 +6,55 @@
 
 }
 
-<h1>Category List</h1>
+@* Tiêu đề chính *@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Danh mục</h1>
+        </div>
+    </div>
+</div>
 
-<p>
-    <a asp-action="Add"><button class="btn btn-success">Create New Category</button></a>
+@* Bảng thống kê danh mục *@
+<div class="container text-center danhmuc__thongkedanhmuc pt-4">
+    <div class="row fw-bold border-bottom border-dark">
+        <div class="col-md-4">
+            <p>ID</p>
+        </div>
+        <div class="col-md-4 border-start border-end border-dark">
+            <p>Phân loại</p>
+        </div>
+        <div class="col-md-4">
+            <p>Thao tác</p>
+        </div>
+    </div>
+</div>
+
+@* Danh mục của từng loại *@
+<div class="container text-center category__item">
+    @foreach (var category in Model)
+    {
+        <div class="row border-bottom border-dark">
+            <div class="col-md-4 ">
+                <p class="my-4">@Html.DisplayFor(modelItem => category.Id)</p>
+            </div>
+            <div class="col-md-4 border-start border-end border-dark">
+                <p class="my-4">@Html.DisplayFor(modelItem => category.Name)</p>
+            </div>
+
+            @* Thao tác *@
+            <div class="col-md-4 my-4">
+                <a asp-action="Display" asp-route-id="@category.Id" class="btn btn-primary">Chi tiết</a>
+                <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-warning text-light">Chỉnh sửa</a>
+                @* <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger">Xoá</a> *@               
+            </div>
+
+        </div>
+    }
+</div>
+
+
+<p class="mt-4">
+    <a asp-action="Add"><button class="btn btn-success">Thêm danh mục mới</button></a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                ID
-            </th>
-            <th>
-                Name
-            </th>
-            <th>Action</th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var category in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => category.Id)
-            </td>
-            <td>
-                    @Html.DisplayFor(modelItem => category.Name)
-            </td>
-            <td>
-                <a asp-action="Display" asp-route-id="@category.Id"><button class="btn btn-primary">View</button></a> |
-                <a asp-action="Update" asp-route-id="@category.Id"><button class="btn btn-warning">Edit</button></a> |
-                <a asp-action="Delete" asp-route-id="@category.Id"><button class="btn btn-danger">Delete</button></a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+

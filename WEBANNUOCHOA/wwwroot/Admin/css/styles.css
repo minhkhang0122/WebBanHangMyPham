@@ -10,6 +10,39 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.block__themsp input.form-control {
+    background-color: #cccccc8c !important;
+}
+.danhmuc__thongkedanhmuc .row {
+    border-bottom: 2px solid black !important;
+}
+.thongkesanpham .danhsach p {
+    margin: 12px 0px;
+}
+.thongkesanpham .danhsach {
+    border-bottom: 2px solid !important;
+}
+.thongkesanpham .tieude div {
+    border-top: 2px solid !important;
+    border-bottom: 2px solid !important;
+    padding: 7px 0px 5px 0px;
+    text-align: center;
+}
+ul.dropdown-menu {
+    width: 224px;
+}
+.li__profile--dropdown {
+    border-bottom: 1px solid #ccc;
+}
+.admin__cottrai--profile {
+    padding-top: 12px;
+    border-top: 1px solid white;
+}
+/* To main page */
+.block__mainPage {
+    font-size: 20px;
+    padding-top: 5px !important;
+}
 /* CSS cho icon and title của Admin */
 .iconAndImage--item {
     font-family: sans-serif;

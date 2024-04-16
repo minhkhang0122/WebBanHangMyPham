@@ -7,6 +7,30 @@
 @{
     int numOfQuantity = 1;
 }
+@* Carousel - Slide *@
+<div class="container-fluid px-0">
+    <div id="carouselExampleAutoplaying" class="carousel slide position-relative z-n1" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/images/slide/slider 1.jpg" class="d-block w-100" alt="Nước hoa nam chính hãng - Three Friends">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/slide/slider 2.jpg" class="d-block w-100" alt="Nước hoa nam chính hãng - Three Friends">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/slide/slider 3.jpg" class="d-block w-100" alt="Nước hoa nam chính hãng - Three Friends">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" style="z-index: unset;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 @* About us *@
 <div class="aboutus">
    <div class="container">
@@ -176,7 +200,7 @@
     </div>
 </div>
 @* Nền ảnh *@
-<div class="nenanh">
+<div class="nenanh px-0">
     <div class="container-fluid px-0">
         <div class="row">
             <div class="col-md-12">
